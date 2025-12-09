@@ -1,0 +1,416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7996664668040723093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 8acd75e2-a670-4817-ba2e-b52ecffc676f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I can give you a fireball spell. I am not a mage, so no use for me
+  children:
+  - 5d7954b6-4cfa-4edc-92c0-beee52993d3b
+  rect:
+    serializedVersion: 2
+    x: 1182
+    y: 11
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &-5647983637430743215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: d517e3f9-9f4f-4700-8d75-795ca8563645
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Give armour to the guard
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1046
+    y: 332
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions:
+  - GetItem
+  - CompleteObjective
+  - CompleteObjective
+  condition:
+    and: []
+--- !u!114 &-3551886404345678340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 9bb6e0e3-2e0c-4cf8-ae4a-adb44c332ae4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Better do not joke with me. Give it to me. Quick!
+  children:
+  - a1762d2e-03f3-477b-bf96-3eb1ca17c49e
+  rect:
+    serializedVersion: 2
+    x: 1258
+    y: 221
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &-1674872299431545358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 97a765c7-d8a8-4296-8a5c-0fe155dcbcf8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Looks like we have a bingo. There is a bandits camp on side of the river
+    and I hear rumours that in the last offence they had gotten some elfs armour.
+    Would you help me to get it? Obviously, nobody in the city should know about
+    our deal
+  children:
+  - ed278ea9-49ac-4f40-a238-5d7bcdb016e8
+  rect:
+    serializedVersion: 2
+    x: 780
+    y: 14
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &-494485544107996661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: a6e78e58-79ed-48c1-8e4e-5a30c8342cc8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Finally, new face here. I am tired to see same people every day. I am Billy,
+    but everybody calls me \u201Cel chico\u201D. "
+  children:
+  - 590f8d60-dede-4cbc-83ff-06c7de87996f
+  rect:
+    serializedVersion: 2
+    x: 342
+    y: 11
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &-334126692854389196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: a1762d2e-03f3-477b-bf96-3eb1ca17c49e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Hahaha. Come and take it, hijo de puta
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1471
+    y: 223
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions:
+  - Atttack
+  - GompleteObjective
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a8ed645ec9349618042c3decaeb486, type: 3}
+  m_Name: Billy and armour_2 roots
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1674872299431545358}
+  - {fileID: 474560506090759195}
+  - {fileID: -7996664668040723093}
+  - {fileID: 3442434143637558362}
+  - {fileID: 6452520658016580712}
+  - {fileID: 3628970203205440215}
+  - {fileID: 403625447831650433}
+  - {fileID: 4597563759003816567}
+  - {fileID: 2103239014531504343}
+  - {fileID: -3551886404345678340}
+  - {fileID: -334126692854389196}
+  - {fileID: -5647983637430743215}
+  - {fileID: -494485544107996661}
+  - {fileID: 4384935388905062961}
+--- !u!114 &403625447831650433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 75ccb2cd-99ad-4d6c-a231-ef162d369292
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Guards are dead. And I have an armour
+  children:
+  - a291ac42-e1ea-47e5-9732-88cd4d6fd61c
+  rect:
+    serializedVersion: 2
+    x: 604
+    y: 224
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and:
+    - or:
+      - predicate: HasInventoryItem
+        parameters:
+        - 461ad26c-6c9d-483a-a98e-ae561c6c2821
+        negate: 0
+--- !u!114 &474560506090759195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: ed278ea9-49ac-4f40-a238-5d7bcdb016e8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "I see\u2026What is the price?"
+  children:
+  - 8acd75e2-a670-4817-ba2e-b52ecffc676f
+  rect:
+    serializedVersion: 2
+    x: 975
+    y: 10
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &2103239014531504343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: d7e9f753-2aa4-4e85-839f-eca253bea423
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "But you know, I think i\xB4ll keep it. It is much better that fireball spell"
+  children:
+  - 9bb6e0e3-2e0c-4cf8-ae4a-adb44c332ae4
+  rect:
+    serializedVersion: 2
+    x: 1046
+    y: 224
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &3442434143637558362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 5d7954b6-4cfa-4edc-92c0-beee52993d3b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Sound good for me
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1394
+    y: 12
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions:
+  - GiveQuest
+  condition:
+    and: []
+--- !u!114 &3628970203205440215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 9a951010-12d7-4aa6-98ef-2e486b06a5d2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Still no luck with it
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 597
+    y: 126
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and:
+    - or:
+      - predicate: HasInventoryItem
+        parameters:
+        - 461ad26c-6c9d-483a-a98e-ae561c6c2821
+        negate: 1
+--- !u!114 &4384935388905062961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 590f8d60-dede-4cbc-83ff-06c7de87996f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'I am Cid. Any chance to earn some money here? '
+  children:
+  - 97a765c7-d8a8-4296-8a5c-0fe155dcbcf8
+  rect:
+    serializedVersion: 2
+    x: 571
+    y: 13
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &4597563759003816567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: a291ac42-e1ea-47e5-9732-88cd4d6fd61c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Awesome
+  children:
+  - d7e9f753-2aa4-4e85-839f-eca253bea423
+  - d517e3f9-9f4f-4700-8d75-795ca8563645
+  rect:
+    serializedVersion: 2
+    x: 817
+    y: 223
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &6452520658016580712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 7e418cbb-28d3-41f0-93d1-4c18912108f6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: How is doing with our deal?
+  children:
+  - 9a951010-12d7-4aa6-98ef-2e486b06a5d2
+  - 75ccb2cd-99ad-4d6c-a231-ef162d369292
+  rect:
+    serializedVersion: 2
+    x: 340
+    y: 130
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Elfs armour
+        negate: 0

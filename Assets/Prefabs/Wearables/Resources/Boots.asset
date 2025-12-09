@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe5710e795b64b5696777fd9a8ed682, type: 3}
+  m_Name: Boots
+  m_EditorClassIdentifier: 
+  itemID: f0a1310e-9738-4e69-be22-f6b2899b8009
+  displayName: Boots
+  description: + 8 max health
+  icon: {fileID: 21300000, guid: 1b932e329d2e122489394506ac8a777b, type: 3}
+  pickup: {fileID: 7301870732708009780, guid: 387f149f796c64693abde7eb0f0fe9ee, type: 3}
+  stackable: 1
+  allowedEquipLocation: 4
+  additiveModifiers:
+  - stat: 0
+    value: 8
+  percentageModifiers: []

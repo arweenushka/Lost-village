@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7acbeaae7e7547318d261e4743e4b609, type: 3}
+  m_Name: Mana potion
+  m_EditorClassIdentifier: 
+  itemID: bf9ec3c6-f717-42dd-b046-0ba418b53c1c
+  displayName: Mana potion
+  description: + 10 mana
+  icon: {fileID: 21300000, guid: f1dd815974b2d4240a6bc912d6585497, type: 3}
+  pickup: {fileID: 6338675963436534227, guid: fed4d23db25ef4d168b395153acd6b36, type: 3}
+  stackable: 1
+  consumable: 1

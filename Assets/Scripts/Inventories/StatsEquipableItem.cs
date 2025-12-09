@@ -1,0 +1,46 @@
+using System.Collections.Generic;
+using Asset_Packs.GameDev.tv_Assets.Scripts.Inventories;
+using GameDevTV.Inventories;
+using Stats;
+using UnityEngine;
+
+namespace Inventories
+{
+    [CreateAssetMenu(menuName = ("Inventories/Equipable Item with modifiers"))]
+    public class StatsEquipableItem : EquipableItem, IModifierProvider
+    {
+        [SerializeField]
+        Modifier[] additiveModifiers;
+        [SerializeField]
+        Modifier[] percentageModifiers;
+
+        [System.Serializable]
+        struct Modifier
+        {
+            public Stat stat;
+            public float value;
+        }   
+
+        public IEnumerable<float> GetAdditiveModifiers(Stat stat)
+        {
+            foreach (var modifier in additiveModifiers)
+            {
+                if (modifier.stat == stat)
+                {
+                    yield return modifier.value;
+                }
+            }
+        }
+
+        public IEnumerable<float> GetPercentageModifiers(Stat stat)
+        {
+            foreach (var modifier in percentageModifiers)
+            {
+                if (modifier.stat == stat)
+                {
+                    yield return modifier.value;
+                }
+            }
+        }
+    }
+}

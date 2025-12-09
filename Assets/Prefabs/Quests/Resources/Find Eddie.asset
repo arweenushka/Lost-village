@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e78f9e7ecbc842d0a79de6c75ebbc6e, type: 3}
+  m_Name: Find Eddie
+  m_EditorClassIdentifier: 
+  objectives:
+  - reference: 1
+    description: Speak with neighbor
+  rewards:
+  - number: 1
+    item: {fileID: 11400000, guid: 1790a3de58ddf4231b6ab1999f04d8f7, type: 2}
+  - number: 1
+    item: {fileID: 11400000, guid: 640ea7451d42542e183bb755e79ba599, type: 2}

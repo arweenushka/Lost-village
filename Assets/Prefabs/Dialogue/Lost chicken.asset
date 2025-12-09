@@ -1,0 +1,524 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7996664668040723093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 8acd75e2-a670-4817-ba2e-b52ecffc676f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Marriage? What are you talking about. Marta is a chicken!
+  children:
+  - 5d7954b6-4cfa-4edc-92c0-beee52993d3b
+  rect:
+    serializedVersion: 2
+    x: 1182
+    y: 11
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &-6211518270808996716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 898ad4fd-33ce-43b3-9e8c-ce25d7f0c35d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Amazing. Freedom loving chicken that likes to go to the cemetery. What will
+    I get?
+  children:
+  - 518a1d8b-11c7-4163-aa60-18673c77c28b
+  rect:
+    serializedVersion: 2
+    x: 2894
+    y: 12
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &-4510533127655314448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 92506e15-e034-4171-a1e0-7c7ab7ef9f04
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Ok, fine. Any idea where I could start?
+  children:
+  - fa5a17ea-fc33-49f9-be31-e5091710ce19
+  rect:
+    serializedVersion: 2
+    x: 2394
+    y: 12
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &-2337610447804142585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 518a1d8b-11c7-4163-aa60-18673c77c28b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I have a mana potion that I won it in a tavern one evening. Will it work
+    for you?
+  children:
+  - d8961458-60d0-4fe4-aca4-15c9288c1e02
+  rect:
+    serializedVersion: 2
+    x: 3144
+    y: 12
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &-1674872299431545358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 97a765c7-d8a8-4296-8a5c-0fe155dcbcf8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: She is making me mad. I am tired trying to find her. I have more problem
+    the benefits from Marta. Help me, pleeeease!
+  children:
+  - ed278ea9-49ac-4f40-a238-5d7bcdb016e8
+  rect:
+    serializedVersion: 2
+    x: 780
+    y: 14
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &-1223277000337547637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: d8961458-60d0-4fe4-aca4-15c9288c1e02
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Deal. Will back to you soon
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 3394
+    y: 12
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions:
+  - GiveQuest
+  condition:
+    and: []
+--- !u!114 &-779041630390241533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: fa5a17ea-fc33-49f9-be31-e5091710ce19
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "You should check Billy\u2019s house, he has a garden, and Marta likes to
+    go there. Or cemetery\u2026"
+  children:
+  - 898ad4fd-33ce-43b3-9e8c-ce25d7f0c35d
+  rect:
+    serializedVersion: 2
+    x: 2644
+    y: 12
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &-494485544107996661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: a6e78e58-79ed-48c1-8e4e-5a30c8342cc8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hi there! Please come here!
+  children:
+  - 590f8d60-dede-4cbc-83ff-06c7de87996f
+  rect:
+    serializedVersion: 2
+    x: 342
+    y: 11
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a8ed645ec9349618042c3decaeb486, type: 3}
+  m_Name: Lost chicken
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1674872299431545358}
+  - {fileID: 474560506090759195}
+  - {fileID: -7996664668040723093}
+  - {fileID: 3442434143637558362}
+  - {fileID: 6452520658016580712}
+  - {fileID: 3628970203205440215}
+  - {fileID: 403625447831650433}
+  - {fileID: 4597563759003816567}
+  - {fileID: -494485544107996661}
+  - {fileID: 4384935388905062961}
+  - {fileID: 6488840182344862067}
+  - {fileID: 478098929080399318}
+  - {fileID: 6716062672964201976}
+  - {fileID: -4510533127655314448}
+  - {fileID: -779041630390241533}
+  - {fileID: -6211518270808996716}
+  - {fileID: -2337610447804142585}
+  - {fileID: -1223277000337547637}
+--- !u!114 &403625447831650433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 75ccb2cd-99ad-4d6c-a231-ef162d369292
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yes, here it is, take it
+  children:
+  - a291ac42-e1ea-47e5-9732-88cd4d6fd61c
+  rect:
+    serializedVersion: 2
+    x: 604
+    y: 224
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and:
+    - or:
+      - predicate: HasInventoryItem
+        parameters:
+        - b6484eb7-a7cb-4775-94bc-d0353edac1b7
+        negate: 0
+--- !u!114 &474560506090759195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: ed278ea9-49ac-4f40-a238-5d7bcdb016e8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I think I am not a right person to resolve marriage problems.
+  children:
+  - 8acd75e2-a670-4817-ba2e-b52ecffc676f
+  rect:
+    serializedVersion: 2
+    x: 975
+    y: 10
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &478098929080399318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 9378dcc3-a86c-48fa-82b5-815b65f6c273
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: " So, do you want me to find your\u2026your chicken?"
+  children:
+  - 4965f34f-d091-4615-8702-cacc377d71e1
+  rect:
+    serializedVersion: 2
+    x: 1894
+    y: 12
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &3442434143637558362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 5d7954b6-4cfa-4edc-92c0-beee52993d3b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Mmm\u2026Chicken?"
+  children:
+  - ce3d99f4-8bd6-404e-95ec-2faf63d84e6a
+  rect:
+    serializedVersion: 2
+    x: 1394
+    y: 12
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions:
+  - GiveQuest
+  condition:
+    and: []
+--- !u!114 &3628970203205440215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 9a951010-12d7-4aa6-98ef-2e486b06a5d2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Not yet
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 603
+    y: 128
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and:
+    - or:
+      - predicate: HasInventoryItem
+        parameters:
+        - b6484eb7-a7cb-4775-94bc-d0353edac1b7
+        negate: 1
+--- !u!114 &4384935388905062961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 590f8d60-dede-4cbc-83ff-06c7de87996f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "What\u2019s happened?"
+  children:
+  - 97a765c7-d8a8-4296-8a5c-0fe155dcbcf8
+  rect:
+    serializedVersion: 2
+    x: 571
+    y: 14
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &4597563759003816567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: a291ac42-e1ea-47e5-9732-88cd4d6fd61c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Thank you a lot. This is your potion
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 817
+    y: 223
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions:
+  - GetItem
+  - CompleteObjective
+  condition:
+    and: []
+--- !u!114 &6452520658016580712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 7e418cbb-28d3-41f0-93d1-4c18912108f6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Did you find Marta?
+  children:
+  - 9a951010-12d7-4aa6-98ef-2e486b06a5d2
+  - 75ccb2cd-99ad-4d6c-a231-ef162d369292
+  rect:
+    serializedVersion: 2
+    x: 342
+    y: 129
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - KFC
+        negate: 0
+--- !u!114 &6488840182344862067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: ce3d99f4-8bd6-404e-95ec-2faf63d84e6a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Yes. Stupid crazy animal, it always runs away from the coop and then I need
+    to search her through the whole village. And now it is even worse, with bandits
+    here I can not even go there
+  children:
+  - 9378dcc3-a86c-48fa-82b5-815b65f6c273
+  rect:
+    serializedVersion: 2
+    x: 1644
+    y: 12
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []
+--- !u!114 &6716062672964201976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 4965f34f-d091-4615-8702-cacc377d71e1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Exactly. Please, tell me that you have time for this
+  children:
+  - 92506e15-e034-4171-a1e0-7c7ab7ef9f04
+  rect:
+    serializedVersion: 2
+    x: 2144
+    y: 12
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitActions: []
+  condition:
+    and: []

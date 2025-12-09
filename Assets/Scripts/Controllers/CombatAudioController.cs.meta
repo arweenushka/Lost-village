@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d9b901f11526e457c991d625ea411e5b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - defaultSnapshot: {fileID: 7760620509789208894, guid: 012f61a4208c5416da676f0114690c27,
+      type: 2}
+  - combatSnapshot: {fileID: -5755282374600904112, guid: 012f61a4208c5416da676f0114690c27,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

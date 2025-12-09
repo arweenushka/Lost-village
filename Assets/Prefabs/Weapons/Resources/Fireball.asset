@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6bbec02c9cb346a991f58a79d3de293, type: 3}
+  m_Name: Fireball
+  m_EditorClassIdentifier: 
+  itemID: 7bf327cd-f571-4736-8368-acc77cd5a095
+  displayName: Fireball
+  description: Magig fireball
+  icon: {fileID: 21300000, guid: 9f69b220176e6964fbd87f5f158d45e3, type: 3}
+  pickup: {fileID: 928440524061101480, guid: b3c3be1b1d06b4ed5a01702843fcd315, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
+  equipedPrefab: {fileID: 0}
+  animatorOverrideController: {fileID: 22100000, guid: 5692c3150d0934ed598eff06cf8a2db3,
+    type: 2}
+  weaponRange: 7
+  weaponDamage: 6
+  percentageBonus: 0
+  isRightHanded: 0
+  projectile: {fileID: 3407535363957855328, guid: 194eec87ec9234288ad74a2782ee29f5,
+    type: 3}

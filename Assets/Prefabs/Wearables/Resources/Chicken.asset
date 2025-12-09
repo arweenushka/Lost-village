@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Chicken
+  m_EditorClassIdentifier: 
+  itemID: b6484eb7-a7cb-4775-94bc-d0353edac1b7
+  displayName: 
+  description: Lost chicken
+  icon: {fileID: 21300000, guid: e236143258438c440a742ac4c483dedd, type: 3}
+  pickup: {fileID: -7598242733942040369, guid: 794642cf7a8594db1b4510b0f44bd61a, type: 3}
+  stackable: 0
+  allowedEquipLocation: 0

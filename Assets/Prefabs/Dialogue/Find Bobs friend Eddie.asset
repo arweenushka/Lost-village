@@ -1,0 +1,331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7123061113363274987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: d14638cb-383e-4e3b-b06d-d31e83e22dec
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yes, I know. I will find your friend
+  children:
+  - 09eb9262-0e36-49dc-b3c5-1d5ae1d3137e
+  rect:
+    serializedVersion: 2
+    x: 234
+    y: 221
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Find Eddie
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Find Eddie
+        negate: 1
+--- !u!114 &-6120880785178359360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: a1cd565b-925c-4c82-a2fa-82e54bc0e004
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'yes please! '
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 696
+    y: 119
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &-5637767312590955646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 6629b23f-6f4f-4237-85cc-fb504410fcf5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: We had a fight with my friend Eddie and now i feell bad about it
+  children:
+  - 04b3c950-c312-4e6c-b5e6-dfd016339bf8
+  rect:
+    serializedVersion: 2
+    x: 468
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a8ed645ec9349618042c3decaeb486, type: 3}
+  m_Name: Find Bobs friend Eddie
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 760562911217400246}
+  - {fileID: 1689733695370972041}
+  - {fileID: -5637767312590955646}
+  - {fileID: 5208213169201820173}
+  - {fileID: 4651690600405881822}
+  - {fileID: 6044006572751074808}
+  - {fileID: -6120880785178359360}
+  - {fileID: -7123061113363274987}
+  - {fileID: 3058642849405145127}
+  - {fileID: 7681148815578577633}
+  - {fileID: 6132363097032157590}
+--- !u!114 &760562911217400246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 6abbc3c3-36ed-44ac-8ea8-ae158adc51ac
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I am so sad
+  children:
+  - 0d3445e9-8476-481e-8627-f6b288d311b6
+  - d14638cb-383e-4e3b-b06d-d31e83e22dec
+  - d244357a-ca07-4ece-925b-2b46e658095a
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1689733695370972041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 0d3445e9-8476-481e-8627-f6b288d311b6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: what happened?
+  children:
+  - 6629b23f-6f4f-4237-85cc-fb504410fcf5
+  rect:
+    serializedVersion: 2
+    x: 233
+    y: 2
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Find Eddie
+        negate: 1
+--- !u!114 &3058642849405145127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 09eb9262-0e36-49dc-b3c5-1d5ae1d3137e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Awesome!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 461
+    y: 218
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4651690600405881822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: fd278a5c-161f-4112-81ca-04b31bfe504f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I want , but i am on patrolling
+  children:
+  - 733eb4ff-8f63-4907-afc5-5e3890fb76a6
+  rect:
+    serializedVersion: 2
+    x: 263
+    y: 111
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5208213169201820173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 04b3c950-c312-4e6c-b5e6-dfd016339bf8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: So say sorry!
+  children:
+  - fd278a5c-161f-4112-81ca-04b31bfe504f
+  rect:
+    serializedVersion: 2
+    x: 678
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6044006572751074808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 733eb4ff-8f63-4907-afc5-5e3890fb76a6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Do you want me to say sorry form you if i meet Eddie?
+  children:
+  - a1cd565b-925c-4c82-a2fa-82e54bc0e004
+  rect:
+    serializedVersion: 2
+    x: 488
+    y: 112
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6132363097032157590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: 142de916-9dbd-4ca5-a00e-84d24353c743
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Yes, absolutely!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 456
+    y: 324
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GetItem
+  condition:
+    and: []
+--- !u!114 &7681148815578577633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663b63b7659fc4fb3a26e9fbca50f109, type: 3}
+  m_Name: d244357a-ca07-4ece-925b-2b46e658095a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'i have a helmet. Do you need it? '
+  children:
+  - 142de916-9dbd-4ca5-a00e-84d24353c743
+  rect:
+    serializedVersion: 2
+    x: 222
+    y: 377
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasInventoryItem
+        parameters:
+        - 0bf85da9-3344-456e-b344-6b5cd7b72a11
+        negate: 0
