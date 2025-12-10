@@ -1,5 +1,5 @@
 # NOTE:
-Has visual artefacts if you are playing on MacOs
+Could have a visual artefacts if you are playing on MacOs via WebGL version
 
 # Implemented game mechanics: 
 
