@@ -1,7 +1,7 @@
-NOTE:
+# NOTE:
 Has visual artefacts if you are playing on MacOs
 
-Implemented game mechanics: 
+# Implemented game mechanics: 
 
 Move
 
